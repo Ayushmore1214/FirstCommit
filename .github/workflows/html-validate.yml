@@ -36,6 +36,6 @@ jobs:
 
       - name: Run HTMLHint on src/
         run: |
-          echo "Running HTMLHint on src/*.html..."
-          htmlhint "src/*.html" --config .htmlhintrc
+          echo "Running HTMLHint on all HTML files in src/..."
+          htmlhint "src/**/*.html" --config .htmlhintrc
           echo "✓ HTML validation passed"
