@@ -1,6 +1,6 @@
 # First PR Lab
 
-<img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/cncf/horizontal/color/cncf-color.svg" width="160" alt="CNCF" />
+<img src="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf/horizontal/color/cncf-color.svg" width="160" alt="CNCF" />
 
 Open source has a vocabulary problem. Everyone says "just open a PR" like that's self-explanatory. You go to the repo, you stare at the Issues tab, nothing makes sense, and you close the tab and never come back.
 
