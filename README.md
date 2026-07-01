@@ -13,6 +13,16 @@
   <a href="CONTRIBUTING.md">How to Contribute</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Ayushmore1214/First_Pr_lab/actions/workflows/deploy.yml"><img src="https://github.com/Ayushmore1214/First_Pr_lab/actions/workflows/deploy.yml/badge.svg" alt="Deploy" /></a>
+  <a href="https://github.com/Ayushmore1214/First_Pr_lab/issues"><img src="https://img.shields.io/github/issues/Ayushmore1214/First_Pr_lab" alt="Open Issues" /></a>
+  <a href="https://github.com/Ayushmore1214/First_Pr_lab/pulls"><img src="https://img.shields.io/github/issues-pr/Ayushmore1214/First_Pr_lab" alt="Open PRs" /></a>
+  <a href="https://github.com/Ayushmore1214/First_Pr_lab/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ayushmore1214/First_Pr_lab" alt="Contributors" /></a>
+  <a href="https://github.com/Ayushmore1214/First_Pr_lab/stargazers"><img src="https://img.shields.io/github/stars/Ayushmore1214/First_Pr_lab" alt="Stars" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <img src="https://img.shields.io/badge/Hacktoberfest-friendly-orange" alt="Hacktoberfest friendly" />
+</p>
+
 <p align="center">If this helped you understand one new thing, a star means the next person finds it too.</p>
 
 ---
@@ -119,4 +129,4 @@ And if you want to say thanks without writing anything - the star button is righ
 
 Stuck at any step - any command, any error, anything confusing - reach out to Ayush on [LinkedIn](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Real person. Real responses. The offer is genuine.
 
-MIT License.
+[MIT License](LICENSE).
