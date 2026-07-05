@@ -22,6 +22,7 @@ Your name goes here the moment your intro PR is merged. Welcome to the community
 | Name | GitHub | LinkedIn |
 |------|--------|----------|
 | Ayush More | [@Ayushmore1214](https://github.com/Ayushmore1214) | [LinkedIn](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true) |
+| Baba Fakruddin | [@BabaFakruddin40](https://github.com/BabaFakruddin40) | [LinkedIn](https://www.linkedin.com/in/bfakrudd) |
 
 <!-- 
   ↑ Your name gets added here when your intro PR is merged.
