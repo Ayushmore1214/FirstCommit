@@ -22,7 +22,7 @@ Your name goes here the moment your intro PR is merged. Welcome to the community
 | Name | GitHub | LinkedIn |
 |------|--------|----------|
 | Ayush More | [@Ayushmore1214](https://github.com/Ayushmore1214) | [LinkedIn](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true) |
-
+| Aarushi Chaudhary | [@arushichaudhary](https://github.com/arushichaudhary) | |
 <!-- 
   ↑ Your name gets added here when your intro PR is merged.
   Each row represents a real human who took their first step into open source.
