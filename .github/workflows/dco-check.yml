@@ -24,8 +24,6 @@ jobs:
           fetch-depth: 0
 
       - name: Check DCO sign-off on all commits
-        uses: christophebedard/dco-check@v0.1.2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # Allow bot commits (GitHub Actions, etc.) to pass without sign-off
-          exclude_users: "github-actions[bot],dependabot[bot]"
+        uses: christophebedard/dco-check@0.5.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
