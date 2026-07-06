@@ -8,7 +8,7 @@ Most of the software the internet runs on is open source. Linux powers the serve
 
 This is the question everyone asks first. A few honest answers:
 
-Some contributors are paid to do it. Companies that depend on a project often assign engineers to maintain and improve it because its in their interest for the project to stay healthy.
+Some contributors are paid to do it. Companies that depend on a project often assign engineers to maintain and improve it because it's in their interest for the project to stay healthy.
 
 Some contribute to learn. Working on a real codebase with real reviewers teaches you things no tutorial can. You read other people's code, you get feedback on yours, and you ship something that other people actually use.
 
