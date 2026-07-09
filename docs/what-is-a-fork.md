@@ -1,6 +1,6 @@
 # What is a Fork?
 
-When you want to contribute to someone else's project, you cannot push changes directly to their repositry. You do not have write access. What you do instead is fork it.
+When you want to contribute to someone else's project, you cannot push changes directly to their repository. You do not have write access. What you do instead is fork it.
 
 A fork is your own copy of the repository, created under your GitHub account. It is completely yours - you can change anything in it without affecting the original project at all.
 
