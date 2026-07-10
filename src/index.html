@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Plain-English definitions for open source terms - fork, pull request, branch, DCO, and everything else you need to know before your first contribution." />
+  <meta name="description"
+    content="Plain-English definitions for open source terms - fork, pull request, branch, DCO, and everything else you need to know before your first contribution." />
   <title>Open Source Glossary - FirstCommit</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
 
   <header class="site-header">
@@ -16,7 +19,8 @@
       <a href="index.html" class="logo">FirstCommit</a>
       <nav class="header-nav">
         <a href="#glossary">Terms</a>
-        <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute</a>
+        <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" target="_blank"
+          rel="noopener">Contribute</a>
         <a href="https://github.com/Ayushmore1214/First_Pr_lab" target="_blank" rel="noopener">GitHub</a>
       </nav>
       <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
@@ -26,16 +30,14 @@
   <section class="hero">
     <div class="container">
       <h1 class="hero-title">Open Source Glossary</h1>
-      <p class="hero-sub">Plain-English definitions for the terms you keep seeing before your first contribution. No assumed knowledge.</p>
+      <p class="hero-sub">Plain-English definitions for the terms you keep seeing before your first contribution. No
+        assumed knowledge.</p>
       <div class="search-wrap">
-        <input
-          type="search"
-          id="search"
-          class="search-input"
-          placeholder="Search terms... try fork, PR, branch"
-          aria-label="Search glossary"
-          autocomplete="off"
-        />
+        <input type="search" id="search" class="search-input" placeholder="Search terms... try fork, PR, branch"
+          aria-label="Search glossary" autocomplete="off" />
+        <span class="search-hint">
+          Press <kbd>/</kbd> to search
+        </span>
         <span class="search-count" id="search-count" aria-live="polite"></span>
       </div>
     </div>
@@ -62,7 +64,8 @@
         </div>
         <h2 class="card-term">Repository</h2>
         <p class="card-def">
-          The folder where a project lives - including every file and the full history of every change ever made. When you clone one, you download a complete copy to your machine. Often called a "repo."
+          The folder where a project lives - including every file and the full history of every change ever made. When
+          you clone one, you download a complete copy to your machine. Often called a "repo."
         </p>
         <ul class="card-tags">
           <li>repo</li>
@@ -77,7 +80,9 @@
         </div>
         <h2 class="card-term">Fork</h2>
         <p class="card-def">
-          Your personal copy of someone else's repository, created on GitHub. You experiment freely in your fork - nothing in the original changes until you open a pull request. Think of it as making a photocopy before you start marking it up.
+          Your personal copy of someone else's repository, created on GitHub. You experiment freely in your fork -
+          nothing in the original changes until you open a pull request. Think of it as making a photocopy before you
+          start marking it up.
         </p>
         <ul class="card-tags">
           <li>copy</li>
@@ -92,7 +97,8 @@
         </div>
         <h2 class="card-term">Branch</h2>
         <p class="card-def">
-          An isolated workspace inside a repository. You make changes on a branch so the main codebase stays untouched until your work is reviewed and ready. Every contribution should live on its own branch.
+          An isolated workspace inside a repository. You make changes on a branch so the main codebase stays untouched
+          until your work is reviewed and ready. Every contribution should live on its own branch.
         </p>
         <ul class="card-tags">
           <li>git checkout -b</li>
@@ -107,7 +113,8 @@
         </div>
         <h2 class="card-term">Commit</h2>
         <p class="card-def">
-          A saved snapshot of your changes, stored permanently in the project history. Each commit has a short message describing what changed. Good commit messages explain the why, not just the what.
+          A saved snapshot of your changes, stored permanently in the project history. Each commit has a short message
+          describing what changed. Good commit messages explain the why, not just the what.
         </p>
         <ul class="card-tags">
           <li>git commit</li>
@@ -122,7 +129,8 @@
         </div>
         <h2 class="card-term">Merge</h2>
         <p class="card-def">
-          Combining the changes from one branch into another. When a maintainer approves your pull request, they merge your branch into main. Your changes become a permanent part of the project.
+          Combining the changes from one branch into another. When a maintainer approves your pull request, they merge
+          your branch into main. Your changes become a permanent part of the project.
         </p>
         <ul class="card-tags">
           <li>git merge</li>
@@ -137,7 +145,8 @@
         </div>
         <h2 class="card-term">Clone</h2>
         <p class="card-def">
-          Downloading a repository from GitHub to your local machine. You clone your fork, not the original repo - that way you have write access. Run <code>git clone &lt;url&gt;</code> to get the files and the full history.
+          Downloading a repository from GitHub to your local machine. You clone your fork, not the original repo - that
+          way you have write access. Run <code>git clone &lt;url&gt;</code> to get the files and the full history.
         </p>
         <ul class="card-tags">
           <li>git clone</li>
@@ -154,7 +163,8 @@
         </div>
         <h2 class="card-term">Pull Request</h2>
         <p class="card-def">
-          A formal proposal to add your changes to a project. You open a PR, a maintainer reviews it, leaves feedback or approves it, and merges it. This is the core workflow of open source contribution. Often called a PR.
+          A formal proposal to add your changes to a project. You open a PR, a maintainer reviews it, leaves feedback or
+          approves it, and merges it. This is the core workflow of open source contribution. Often called a PR.
         </p>
         <ul class="card-tags">
           <li>PR</li>
@@ -169,7 +179,8 @@
         </div>
         <h2 class="card-term">Issue</h2>
         <p class="card-def">
-          A tracked conversation on GitHub - a bug report, feature request, question, or task. Issues are how a project organizes its work. You should always look for an issue to claim before starting work on a change.
+          A tracked conversation on GitHub - a bug report, feature request, question, or task. Issues are how a project
+          organizes its work. You should always look for an issue to claim before starting work on a change.
         </p>
         <ul class="card-tags">
           <li>bug report</li>
@@ -184,7 +195,8 @@
         </div>
         <h2 class="card-term">Code Review</h2>
         <p class="card-def">
-          The process of reading someone else's changes and leaving feedback before they're merged. It's collaborative, not critical. Reviewers might ask questions, suggest improvements, or approve the changes as-is.
+          The process of reading someone else's changes and leaving feedback before they're merged. It's collaborative,
+          not critical. Reviewers might ask questions, suggest improvements, or approve the changes as-is.
         </p>
         <ul class="card-tags">
           <li>feedback</li>
@@ -199,7 +211,9 @@
         </div>
         <h2 class="card-term">Upstream</h2>
         <p class="card-def">
-          The original repository that you forked from. When the original gets new commits, you pull from upstream to bring those changes into your fork and stay in sync. You set this up with <code>git remote add upstream &lt;url&gt;</code>.
+          The original repository that you forked from. When the original gets new commits, you pull from upstream to
+          bring those changes into your fork and stay in sync. You set this up with
+          <code>git remote add upstream &lt;url&gt;</code>.
         </p>
         <ul class="card-tags">
           <li>git remote</li>
@@ -216,7 +230,8 @@
         </div>
         <h2 class="card-term">Maintainer</h2>
         <p class="card-def">
-          The person (or team) responsible for a project. They review pull requests, merge changes, close stale issues, and set the direction. When you contribute, you're working with them, not for them.
+          The person (or team) responsible for a project. They review pull requests, merge changes, close stale issues,
+          and set the direction. When you contribute, you're working with them, not for them.
         </p>
         <ul class="card-tags">
           <li>owner</li>
@@ -231,7 +246,9 @@
         </div>
         <h2 class="card-term">Contributor</h2>
         <p class="card-def">
-          Anyone who has added something to a project - code, documentation, a bug report, a typo fix, a translation. You become a contributor the moment your first change is accepted. This project is designed for that exact moment.
+          Anyone who has added something to a project - code, documentation, a bug report, a typo fix, a translation.
+          You become a contributor the moment your first change is accepted. This project is designed for that exact
+          moment.
         </p>
         <ul class="card-tags">
           <li>first PR</li>
@@ -246,7 +263,8 @@
         </div>
         <h2 class="card-term">README</h2>
         <p class="card-def">
-          The front page of a repository. It's the first thing most people read. A good README explains what the project is, how to run it locally, and how to contribute. Always read it before opening an issue or pull request.
+          The front page of a repository. It's the first thing most people read. A good README explains what the project
+          is, how to run it locally, and how to contribute. Always read it before opening an issue or pull request.
         </p>
         <ul class="card-tags">
           <li>README.md</li>
@@ -261,7 +279,9 @@
         </div>
         <h2 class="card-term">License</h2>
         <p class="card-def">
-          The legal terms for what others can do with the code. MIT means do whatever you want, just keep the copyright notice. GPL means any project using the code must also be open source. Always check the license before using code in a project.
+          The legal terms for what others can do with the code. MIT means do whatever you want, just keep the copyright
+          notice. GPL means any project using the code must also be open source. Always check the license before using
+          code in a project.
         </p>
         <ul class="card-tags">
           <li>MIT</li>
@@ -278,7 +298,9 @@
         </div>
         <h2 class="card-term">DCO</h2>
         <p class="card-def">
-          Developer Certificate of Origin. A sign-off line at the end of every commit that says you wrote the code and have the right to contribute it. Add it with <code>git commit -s</code> - git appends <code>Signed-off-by: Name &lt;email&gt;</code> automatically.
+          Developer Certificate of Origin. A sign-off line at the end of every commit that says you wrote the code and
+          have the right to contribute it. Add it with <code>git commit -s</code> - git appends
+          <code>Signed-off-by: Name &lt;email&gt;</code> automatically.
         </p>
         <ul class="card-tags">
           <li>sign-off</li>
@@ -293,7 +315,9 @@
         </div>
         <h2 class="card-term">CI/CD</h2>
         <p class="card-def">
-          Continuous Integration and Delivery. Automated checks that run every time someone pushes code - building it, running tests, checking formatting. If a check fails you'll see a red X on your PR. This project uses CI to validate HTML and enforce DCO sign-offs.
+          Continuous Integration and Delivery. Automated checks that run every time someone pushes code - building it,
+          running tests, checking formatting. If a check fails you'll see a red X on your PR. This project uses CI to
+          validate HTML and enforce DCO sign-offs.
         </p>
         <ul class="card-tags">
           <li>GitHub Actions</li>
@@ -308,7 +332,9 @@
         </div>
         <h2 class="card-term">Linting</h2>
         <p class="card-def">
-          Automated checking of code for style or formatting mistakes - missing tags, inconsistent indentation, deprecated patterns. A linter runs in CI so issues get caught before a human ever has to point them out in review.
+          Automated checking of code for style or formatting mistakes - missing tags, inconsistent indentation,
+          deprecated patterns. A linter runs in CI so issues get caught before a human ever has to point them out in
+          review.
         </p>
         <ul class="card-tags">
           <li>HTMLHint</li>
@@ -323,7 +349,9 @@
         </div>
         <h2 class="card-term">Open Source</h2>
         <p class="card-def">
-          Software whose source code is publicly available for anyone to read, use, modify, and contribute to. Most of the tools the world runs on - Linux, Git, Kubernetes, VS Code - are open source. This project was built so you can experience contributing to one.
+          Software whose source code is publicly available for anyone to read, use, modify, and contribute to. Most of
+          the tools the world runs on - Linux, Git, Kubernetes, VS Code - are open source. This project was built so you
+          can experience contributing to one.
         </p>
         <ul class="card-tags">
           <li>public</li>
@@ -350,11 +378,14 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>Built by <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank" rel="noopener">Ayush</a> as an open source learning lab. MIT License.</p>
-      <p>Stuck contributing? <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank" rel="noopener">Reach out directly</a> - real human, real help.</p>
+      <p>Built by <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank"
+          rel="noopener">Ayush</a> as an open source learning lab. MIT License.</p>
+      <p>Stuck contributing? <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true"
+          target="_blank" rel="noopener">Reach out directly</a> - real human, real help.</p>
     </div>
   </footer>
 
   <script src="main.js"></script>
 </body>
+
 </html>
