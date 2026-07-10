@@ -25,6 +25,7 @@ Your name goes here the moment your intro PR is merged. Welcome to the community
 | Aarushi Chaudhary | [@arushichaudhary](https://github.com/arushichaudhary) | |
 | Baba Fakruddin | [@BabaFakruddin40](https://github.com/BabaFakruddin40) | [LinkedIn](https://www.linkedin.com/in/bfakrudd) |
 | Swappy | [@swappy-2003](https://github.com/swappy-2003) | [LinkedIn](https://www.linkedin.com/in/swapnilkumar2003) |
+| Aman Meena | [@Amanmeena0](https://github.com/Amanmeena0) | [LinkedIn](https://www.linkedin.com/in/aman-meena-11326a395) |
 <!-- 
   ↑ Your name gets added here when your intro PR is merged.
   Each row represents a real human who took their first step into open source.
