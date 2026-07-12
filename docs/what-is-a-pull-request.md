@@ -18,7 +18,7 @@ When a maintainer reviews your PR, they can leave it in one of three states:
 
 **Approved** - everything looks good, the PR is ready to merge.
 
-**Changes Requested** - something needs to be fixed before merging. This is not a rejection. Read the comments, make the changes, push again.
+**Changes requested** - something needs to be fixed before merging. This is not a rejection. Read the comments, make the changes, push again.
 
 **Commented** - the reviewer left notes but hasn't made a final decision yet. Usually means they want to discuss something first.
 
