@@ -1,6 +1,6 @@
 # Understanding GitHub Issues
 
-An issue is a tracked conversation on a GitHub repository. It could be a bug report, a feature request or a question. Issues are how a project organizes its work - everything that needs to happen eventually starts as an issue.
+An issue is a tracked conversation on a GitHub repository. It could be a bug report, a feature request, or a question. Issues are how a project organizes its work - everything that needs to happen eventually starts as an issue.
 
 ## What issues look like
 
