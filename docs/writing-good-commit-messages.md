@@ -1,6 +1,6 @@
 # Writing Good Commit Messages
 
-A commit message is a short description of what changed and why. It gets stored permanently in the project history. Alot of developers treat commit messages as an afterthought - "fixed stuff", "wip", "asdfgh" - and then wonder why the history is useless when they're trying to debug something six months later.
+A commit message is a short description of what changed and why. It gets stored permanently in the project history. A lot of developers treat commit messages as an afterthought - "fixed stuff", "wip", "asdfgh" - and then wonder why the history is useless when they're trying to debug something six months later.
 
 Good commit messages make a project easier to maintain. They're worth getting right.
 
