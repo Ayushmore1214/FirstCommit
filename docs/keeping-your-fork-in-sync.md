@@ -72,12 +72,6 @@ git merge upstream/main
 
 This updates your local `main` branch with everything that has been added to the original project since you last synced.
 
-If you also want your fork on GitHub to match your updated local branch, push the changes:
-
-```bash
-git push origin main
-```
-
 This updates your fork so it stays in sync as well.
 
 ## What if Git reports a conflict?
@@ -98,8 +92,7 @@ A simple workflow looks like this:
 
 1. Fetch the latest changes from `upstream`.
 2. Update your local `main` branch.
-3. Push the updated `main` branch to your fork.
-4. Create a new feature branch.
-5. Start working.
+3. Create a new feature branch.
+4. Start working.
 
 Keeping your fork up to date makes future pull requests much easier and helps you avoid unnecessary conflicts.
