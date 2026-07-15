@@ -6,6 +6,7 @@ Short guides on the concepts behind open source contributing. The [glossary](../
 
 - [What is Open Source?](what-is-open-source.md)
 - [What is a Fork?](what-is-a-fork.md)
+- [Keeping your Fork in Sync](keeping-your-fork-in-sync.md)
 - [What is a Branch?](what-is-a-branch.md)
 - [What is a Pull Request?](what-is-a-pull-request.md)
 - [Understanding GitHub Issues](understanding-github-issues.md)
