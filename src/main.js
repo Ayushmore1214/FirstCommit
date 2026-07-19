@@ -76,6 +76,17 @@
     });
   });
 
+  //update filter button counts
+  document.querySelectorAll('.filter-btn[data-cat]').forEach(function (btn) {
+  var cat = btn.dataset.cat;
+  if (cat === 'all') {
+    btn.textContent = 'All (' + document.querySelectorAll('.card').length + ')';
+  } else {
+    var count = document.querySelectorAll('.card[data-cat="' + cat + '"]').length;
+    btn.textContent = btn.textContent + ' (' + count + ')';
+  }
+});
+
   // press / to focus search
   document.addEventListener('keydown', function (e) {
     if (e.key === '/' && document.activeElement !== searchEl) {
