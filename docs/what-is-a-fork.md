@@ -11,7 +11,7 @@ Go to any repository on GitHub and click the "Fork" button in the top right corn
 Once you have your fork, clone it to your local machine:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/First_Pr_lab.git
+git clone https://github.com/YOUR-USERNAME/FirstCommit.git
 ```
 
 You make your changes locally, push them to your fork, and then open a pull request from your fork back to the original project. The maintainer reviews your changes and decides whether to merge them.
@@ -23,7 +23,7 @@ After you fork, your copy and the original are separate. If the original project
 The original repository is called the upstream. You add it as a remote and fetch from it when you need to sync:
 
 ```bash
-git remote add upstream https://github.com/Ayushmore1214/First_Pr_lab.git
+git remote add upstream https://github.com/Ayushmore1214/FirstCommit.git
 git fetch upstream
 git merge upstream/main
 ```
