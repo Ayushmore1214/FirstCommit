@@ -272,6 +272,38 @@ code {
   line-height: 1.7;
   flex: 1;
 }
+/* ---- Back to Top Button ---- */
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s, background 0.15s, color 0.15s;
+  z-index: 1000; /* Ensures the button floats above sticky headers and cards */
+}
+
+#back-to-top:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 
 .card-tags {
   list-style: none;

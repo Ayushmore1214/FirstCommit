@@ -100,6 +100,23 @@
       searchEl.blur();
     }
   });
+   // --- New Back to Top Button Functionality ---
+  var topBtn = document.getElementById('back-to-top');
+  if (topBtn) {
+    window.addEventListener('scroll', function () {
+      // Toggles visibility when scrolled past 300px
+      topBtn.classList.toggle('visible', window.scrollY > 300);
+    });
+
+    topBtn.addEventListener('click', function () {
+      // Respect user reduced-motion preference settings during execution
+      var isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ 
+        top: 0, 
+        behavior: isReduced ? 'auto' : 'smooth' 
+      });
+    });
+  }
 
 }());
 
