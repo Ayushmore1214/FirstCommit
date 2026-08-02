@@ -145,10 +145,10 @@ This PR must have the exact title: **`My First Open Source Contribution`**
 
 ### Step 1: Fork the repository
 
-1. Go to [github.com/Ayushmore1214/First_Pr_lab](https://github.com/Ayushmore1214/First_Pr_lab)
+1. Go to [github.com/Ayushmore1214/FirstCommit](https://github.com/Ayushmore1214/FirstCommit)
 2. Click the **Fork** button in the top-right corner of the page
 3. GitHub will ask you where to create the fork  -  choose your personal GitHub account
-4. After a few seconds, you'll be redirected to your fork: `github.com/YOUR-USERNAME/First_Pr_lab`
+4. After a few seconds, you'll be redirected to your fork: `github.com/YOUR-USERNAME/FirstCommit`
 
 You now have your own copy of the project. Let's download it to your computer.
 
@@ -158,10 +158,10 @@ You now have your own copy of the project. Let's download it to your computer.
 
 "Cloning" means downloading the repository from GitHub to your local computer so you can edit it.
 
-Copy the URL of your fork (it should look like `https://github.com/YOUR-USERNAME/First_Pr_lab.git`) and run:
+Copy the URL of your fork (it should look like `https://github.com/YOUR-USERNAME/FirstCommit.git`) and run:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/First_Pr_lab.git
+git clone https://github.com/YOUR-USERNAME/FirstCommit.git
 ```
 
 Replace `YOUR-USERNAME` with your actual GitHub username.
@@ -301,8 +301,8 @@ Writing objects: 100% (3/3), 347 bytes | 347.00 KiB/s, done.
 Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 remote: Create a pull request for 'intro/your-github-username' on GitHub by visiting:
-remote:   https://github.com/YOUR-USERNAME/First_Pr_lab/pull/new/intro/your-github-username
-To https://github.com/YOUR-USERNAME/First_Pr_lab.git
+remote:   https://github.com/YOUR-USERNAME/FirstCommit/pull/new/intro/your-github-username
+To https://github.com/YOUR-USERNAME/FirstCommit.git
  * [new branch]      intro/your-github-username -> intro/your-github-username
 ```
 
@@ -358,7 +358,7 @@ Once your intro PR is merged, you're eligible to work on a real issue.
 
 ### Finding an issue
 
-1. Go to the [Issues tab](https://github.com/Ayushmore1214/First_Pr_lab/issues)
+1. Go to the [Issues tab](https://github.com/Ayushmore1214/FirstCommit/issues)
 2. Look for issues labeled **`good first issue`**  -  these are real tasks on the webpage that are scoped for beginners
 3. Read the issue description carefully before claiming it
 
@@ -453,7 +453,7 @@ git push origin main
 If you haven't set up the upstream remote yet:
 
 ```bash
-git remote add upstream https://github.com/Ayushmore1214/First_Pr_lab.git
+git remote add upstream https://github.com/Ayushmore1214/FirstCommit.git
 ```
 
 ---
@@ -555,14 +555,14 @@ git remote -v
 
 **Expected output** (should show YOUR username, not Ayushmore1214):
 ```
-origin  https://github.com/YOUR-USERNAME/First_Pr_lab.git (fetch)
-origin  https://github.com/YOUR-USERNAME/First_Pr_lab.git (push)
+origin  https://github.com/YOUR-USERNAME/FirstCommit.git (fetch)
+origin  https://github.com/YOUR-USERNAME/FirstCommit.git (push)
 ```
 
 If origin points to the wrong repo, update it:
 
 ```bash
-git remote set-url origin https://github.com/YOUR-USERNAME/First_Pr_lab.git
+git remote set-url origin https://github.com/YOUR-USERNAME/FirstCommit.git
 ```
 
 ---
