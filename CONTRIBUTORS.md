@@ -27,6 +27,7 @@ Your name goes here the moment your intro PR is merged. Welcome to the community
 | Swappy | [@swappy-2003](https://github.com/swappy-2003) | [LinkedIn](https://www.linkedin.com/in/swapnilkumar2003) |
 | Aniket | [@Aniket-The-TechWhiz](https://github.com/Aniket-The-TechWhiz) | [LinkedIn Profile](https://www.linkedin.com/in/aniket-yelameli/) |
 |Ivy Imoh | [@IVYIMOH](https://github.com/IVYIMOH) | [LinkedIn](https://www.linkedin.com/in/ivy-imoh/) |
+| Leonardo Merino | [@Wissenss](https://github.com/Wissenss) | [LinkedIn](https://www.linkedin.com/in/merinogale/)
 <!-- 
   ↑ Your name gets added here when your intro PR is merged.
   Each row represents a real human who took their first step into open source.
