@@ -70,6 +70,7 @@ I kept watching people give up before their first contribution. Not because they
 I wanted to build the project I wish existed when I was starting. Real CI/CD, real code review, real git workflow - but scoped small enough that you can understand the whole codebase in one sitting and ship something by the end of the day.
 
 The Open Source 101 series exists for the same reason. Episode 2 is about opening your first PR - and this is where you open it.
+first commit 
 
 ## What's in the repo
 
